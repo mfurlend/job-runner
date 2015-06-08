@@ -18,7 +18,7 @@ Note: Since this is a demonstration of concepts and not production-ready code I 
 to avoid SQL injection or take any steps to prevent execution of malicious code.
 
 Here are the mysql tables used:
-
+```SQL
 CREATE TABLE `pending_jobs` (
 `command` varchar(255) NOT NULL ,
 `args`  varchar(255) DEFAULT NULL ,
@@ -36,3 +36,4 @@ CREATE TABLE `completed_jobs` (
 `id`  int(10) UNSIGNED NOT NULL AUTO_INCREMENT ,
 PRIMARY KEY (`id`)
 )
+```
